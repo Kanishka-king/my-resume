@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    justify-content: center;
+}
+.container{
+    border: 5px solid pink;
+    color:black;
+    background-color: blue;
+    width:100px;
+    height:100px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline-style: solid;
+    outline-width: 20px;
+    outline-color: red;
+    padding:10em 10em 10em 10em;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    
+}
+.container p:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+    color: aqua;
+}
